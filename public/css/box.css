@@ -1,0 +1,107 @@
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}  
+.apps-container {
+    border: 2px dashed blue;
+    margin: 10px 10px 0 0;
+    padding: 5px;
+    height: auto;
+    width: 200px;
+    min-width:200px;
+    min-height:50px;
+}
+
+.app {
+    width: 170px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #EA8A8A;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    cursor: move;
+}
+
+
+.assessment_leftpane {
+    float:left;
+    width: 270px;
+    background-color: #edf0f2 !important;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #c7cbcd;
+    position:fixed;
+    z-index:1;
+}
+.assessment_leftpane .apps-container 
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.assessment_leftpane .app {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #d8dcdd;
+    border-bottom: 3px solid #d8dcdd;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    width: 250px;
+    position:relative;
+}
+.assessment_leftpane .app .cbox 
+{
+    position:absolute;
+    left: 40px;
+    top: 37px;
+}
+
+.assessment_leftpane .user_image {
+    border: 1px solid #d8dcdd;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    padding: 3px;
+    float: left;
+    width: 53px;
+    height: 53px;
+}
+
+.assessment_leftpane .user_image img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.assessment_leftpane .user_details {
+    float: left;
+    width: 170px;
+    margin: 7px 0 0 10px;
+    color: #4581c0;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.assessment_leftpane .user_details span.desc {
+    display: block;
+    color: #f99245;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
+

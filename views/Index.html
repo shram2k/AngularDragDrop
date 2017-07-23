@@ -1,0 +1,45 @@
+<html>
+    <head>
+       <link href="/assests/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+       <link href="/lib/css/box.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+<div ng-app="TalentApp" ng-controller="mainCtrl as mainCtrl" ng-init="init()">
+ <div class="assessment_leftpane " >
+            <div  ui-sortable="sortableOptions" class="apps-container screen " 
+                ng-model="TeamMembers">
+                 <div class="app" ng-repeat="item in TeamMembers">
+                    <div class="user_image">
+                        <img ng-src="/lib/images/{{item.ProfilePicture}}" alt="" /></div>
+                    <div class='user_details'>{{item.Name}}<span class="desc">{{item.Designation}}</span></div>
+                </div>
+           
+            </div>
+    </div>
+    <div class="assessment_leftpane" style="margin-left:285px">
+             <div ui-sortable="sortableOptions" ng-model="TeamMembers2"
+              class="apps-container screen ">
+                <div class="app" ng-repeat="item in TeamMembers2">
+                    <div class="user_image">
+                        <img ng-src="/lib/images/{{item.ProfilePicture}}" alt="" /></div>
+                    <div class='user_details'>{{item.Name}}<span class="desc">{{item.Designation}}</span></div>
+                </div>
+            </div>
+    </div>     
+</div>
+<script src="/assests/jquery/dist/jquery.min.js"></script>
+<script src="/assests/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assests/angular/angular.min.js"></script>
+<script src="/lib/js/jquery-ui-sortable/jquery-ui-sortable.js"></script>
+<script src="/lib/js/jquery-ui-sortable/jquery.ui.touch-punch.min.js"></script>
+<script src="/assests/angular-ui-sortable\sortable.min.js"></script>
+<script src="/lib/js/module.js"></script>
+<script src="/lib/js/controllers/mainCtrl.js"></script>
+<script type="text/javascript">
+$(function(){
+    
+});
+
+</script>
+</body>
+</html>

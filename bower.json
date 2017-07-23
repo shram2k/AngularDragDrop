@@ -1,15 +1,11 @@
 {
   "name": "angulardragdrop",
   "version": "0.0.1",
-  //"directory":"public/bower_components",
   "dependencies": {
-    "bootstrap":"latest",
-    "angular": "^1.6.2"
+    "bootstrap": "latest",
+    "angular": "^1.6.2",
+    "angular-ui-sortable": "^0.17.1"
   },
-  "devDependencies": {
-    
-  },
-  "overrides": {
-    
-  }
+  "devDependencies": {},
+  "overrides": {}
 }
